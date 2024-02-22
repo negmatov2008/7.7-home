@@ -2,3 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: url("/public/bg.png") no-repeat top 0 right 0, #edf3f8;
+  font-family: "DM Serif Display", serif;
+}
+.dm-serif display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+footer {
+  background-size: contain;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
