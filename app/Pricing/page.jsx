@@ -9,7 +9,7 @@ function page() {
       <img className="mt-[140px] mb-16" src="./Pricing.png" alt="" />
       <div className="flex gap-10">
         <div className="flex flex-col max-w-[350px]">
-          <img src={contents[0]} alt="" />
+          <img width={350} height={192} src={contents[0]} alt="" />
           <div className="w-full h-[1px] bg-[#36536B] opacity-[25%] mt-6 mb-6"></div>
           <div className="flex flex-col gap-4">
             <img width={134} height={28} src="./a1.png" alt="" />
@@ -62,7 +62,7 @@ function page() {
           </button>
         </div>
         <div className="flex flex-col max-w-[350px]">
-          <img src={contents[1]} alt="" />
+          <img width={350} height={192} src={contents[1]} alt="" />
           <div className="w-full h-[1px] bg-[#36536B] opacity-[25%] mt-6 mb-6"></div>
           <div className="flex flex-col gap-4">
             <img width={134} height={28} src="./a1.png" alt="" />
@@ -115,7 +115,7 @@ function page() {
           </button>
         </div>
         <div className="flex flex-col max-w-[350px]">
-          <img src={contents[2]} alt="" />
+          <img width={350} height={192} src={contents[2]} alt="" />
           <div className="w-full h-[1px] bg-[#36536B] opacity-[25%] mt-6 mb-6"></div>
           <div className="flex flex-col gap-4">
             <img width={134} height={28} src="./a1.png" alt="" />

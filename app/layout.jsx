@@ -60,10 +60,18 @@ export default function RootLayout({ children }) {
 
         {children}
         <div className="max-w-full mb-24 mt-24">
-          <img src="./abovefooter.png" className="mx-auto" alt="" />
+          <img
+            width={1110}
+            height={56}
+            src="./abovefooter.png"
+            className="mx-auto"
+            alt=""
+          />
         </div>
         <footer className="max-w-full ml-12 relative">
           <img
+            width={1440}
+            height={100}
             className="absolute -z-30 bg-cover  "
             src="./footer.png"
             alt=""
@@ -71,7 +79,7 @@ export default function RootLayout({ children }) {
           <div className="flex max-w-[75%] py-8 mx-auto justify-between items-center">
             <div className="flex gap-[100px]">
               <Link href={"/"}>
-                <img src="./logofoot.png" alt="" />
+                <img width={135} height={38} src="./logofoot.png" alt="" />
               </Link>
               <ul className="flex items-center gap-10">
                 <li>
@@ -100,7 +108,7 @@ export default function RootLayout({ children }) {
                 </li>
               </ul>
             </div>
-            <img src="./links.png" alt="" />
+            <img width={120} height={24} src="./links.png" alt="" />
           </div>
         </footer>
       </body>

@@ -24,7 +24,7 @@ function page() {
   };
   return (
     <div className="max-w-full">
-      <img src="./bg.png" className="absolute -z-10 top-0 right-0" alt="" />
+      <img src="./bg.png" width={780} height={580} className="absolute -z-10 top-0 right-0" alt="" />
       <div className=" flex justify-between constainer max-w-[1110px] font-[DM Serif Display] mx-auto items-center ">
         <div className="max-w-[546px]">
           <h1 className="text-[72px] leading-[72px]  font-[400] tracking-tighter mb-4 text-[#36536B]">
@@ -44,7 +44,7 @@ function page() {
             Have any questions? <span className="font-bold ">Contact Us</span>
           </div>
         </div>
-        <img src="./phone.png" className="ml-10" alt="" />
+        <img src="./phone.png" width={263} height={500} className="ml-10" alt="" />
       </div>
       <button
         onClick={() => {
@@ -52,14 +52,16 @@ function page() {
         }}
         className="w-full mb-12 relative"
       >
-        <img id="img" src="./hero.png" className="mx-auto" alt="" />
+        <img id="img" width={1140} height={472} src="./hero.png" className="mx-auto" alt="" />
         <img
+        width={445} height={272}
           id="img2"
           src="./active1.png"
           className="z-1 absolute top-[22%] hidden left-[10%]"
           alt=""
         />
         <img
+        width={563} height={103}
           id="img3"
           src="./active3.png"
           className="z-3 absolute top-[35%] hidden right-[10%]"
@@ -67,12 +69,12 @@ function page() {
         />
       </button>
       <div className="max-w-[1015px] mx-auto container flex justify-between items-center">
-        <img src="./code.png" alt="" />
-        <img src="./text.png" alt="" />
+        <img width={445} height={384} src="./code.png" alt="" />
+        <img width={445} height={164} src="./text.png" alt="" />
       </div>
       <div className="max-w-full pl-[100px] mb-12 mx-auto flex justify-between items-center">
-        <img src="./text2.png" alt="" />
-        <img src="./bigphone.png" alt="" />
+        <img width={445} height={136} src="./text2.png" alt="" />
+        <img width={800} height={780} src="./bigphone.png" alt="" />
       </div>
       <div className="flex max-w-[1110px]  mx-auto justify-between">
         {contents.map((c) => (
